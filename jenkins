@@ -18,8 +18,9 @@ pipeline {
                 script{
                     checkout([$class: 'GitSCM', branches: [[name: '*/master']],
                         userRemoteConfigs: [[
-                            credentialsId: '67c2744e-c2d9-4b17-9f12-35c2d4eaac32',
+                            credentialsId: '1cCudfMQwJQxs32RIv1ag7BiacLu2W09bj96',
                             url: 'https://github.com/ahmedissiou/MyApp.git']]])
                 }
             }
         }
+}
