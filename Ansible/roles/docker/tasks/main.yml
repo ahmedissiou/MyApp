@@ -4,7 +4,7 @@
   docker_image:
     name: projet1
     build:
-    path: /var/lib/jenkins/workspace/projet1
+     path: /var/lib/jenkins/workspace/projet1
       
 - name: run container docker
   docker_container:
