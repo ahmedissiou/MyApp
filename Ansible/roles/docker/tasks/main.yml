@@ -1,8 +1,8 @@
   ---
 # tasks file for docker
 - name: create image docker
-   docker_image:
-    name: Projet1
+  docker_image:
+  name: Projet1
     build:
       path: /var/lib/jenkins/workspace/projet1
       pull: no
