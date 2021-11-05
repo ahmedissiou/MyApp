@@ -1,14 +1,22 @@
   ---
 # tasks file for docker
-- name: create image docker
+
+
+- name: Tag and push to docker hub
   docker_image:
-  name: Projet1
+    
+
+    name: Projet1
+ 
     build:
+     
       path: /var/lib/jenkins/workspace/projet1
       pull: no
     source: build
-         state: present
+      state: present
     force_source: true
+
+
 - name: run container docker
   docker_container:
     name: myapp_container
