@@ -9,7 +9,6 @@
     name: Projet1
  
     build:
-     
       path: /var/lib/jenkins/workspace/projet1
       pull: no
     source: build
