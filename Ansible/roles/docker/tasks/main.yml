@@ -1,5 +1,5 @@
 ---
-	- name: create image docker
+   - name: create image docker
   	  docker_image:
    	    name: devops
    	    build:
