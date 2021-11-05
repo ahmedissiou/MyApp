@@ -1,4 +1,4 @@
----
+  ---
 # tasks file for docker
 - name: create image docker
   docker_image:
@@ -6,9 +6,9 @@
     build:
          path: /var/lib/jenkins/workspace/projet1
          pull: no
-         source: build
+    source: build
          state: present
-         force_source: true
+    force_source: true
 - name: run container docker
   docker_container:
     name: myapp_container
