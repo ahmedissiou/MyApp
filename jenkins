@@ -6,7 +6,7 @@
                 script{
                     checkout([$class: 'GitSCM', branches: [[name: '*/master']],
                         userRemoteConfigs: [[
-                            credentialsId: '1cCudfMQwJQxs32RIv1ag7BiacLu2W09bj96',
+                            credentialsId: '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',
                             url: 'https://github.com/ahmedissiou/MyApp.git']]])
                 }
             }
@@ -15,7 +15,7 @@
 {
                   steps {
                          script{
-                         sh "ansible-playbook ansible/build.yml -i ansible/inventory/host.yml "
+                         sh "ansible-playbook Ansible/build.yml -i Ansible/inventory/host.yml "
                                 }
                         }
   }
