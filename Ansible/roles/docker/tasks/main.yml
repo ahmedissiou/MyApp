@@ -4,11 +4,8 @@
   docker_image:
     name: projet1
     build:
-      path: /var/lib/jenkins/workspace/projet1
-      pull: no
-    source: build
-    state: present
-    force_source: true
+    path: /var/lib/jenkins/workspace/projet1
+      
 - name: run container docker
   docker_container:
     name: myapp_container
