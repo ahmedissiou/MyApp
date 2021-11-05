@@ -13,7 +13,7 @@
       path: /var/lib/jenkins/workspace/projet1
       pull: no
     source: build
-      state: present
+    state: present
     force_source: true
 
 
