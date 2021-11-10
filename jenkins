@@ -11,7 +11,7 @@
                 }
             }
         }
- stage('Build)
+ stage('Build')
 {
                   steps {
                          script{
