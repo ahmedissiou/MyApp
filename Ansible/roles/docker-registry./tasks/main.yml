@@ -1,2 +1,8 @@
 ---
 # tasks file for docker-registry.
+- name: Tag and push to docker hub
+  docker_image:
+    name: projet1
+    repository: ahmedissiou/projet1
+    tag: projet1
+    push: yes
