@@ -1,0 +1,12 @@
+version: '3.3'
+
+services:
+  registry:
+    container_name: projet1
+    restart: always
+    image: projet1
+    ports:
+      - 5000:5000
+    volumes:
+      - ./config/config.yml:/etc/docker/registry/config.yml:ro
+      - ./data:/var/lib/registry:rw
