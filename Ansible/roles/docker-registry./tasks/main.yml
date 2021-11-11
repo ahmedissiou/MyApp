@@ -9,6 +9,7 @@
 
 - name: Tag and push to docker hub
   docker_image:
-    name: ahmedissiou/projet1
+          name: projet1:latest
     repository: ahmedissiou/projet1
+    tag: latest 
     push: yes
