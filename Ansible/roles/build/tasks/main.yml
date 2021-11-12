@@ -1,6 +1,7 @@
-#buildproject
-               
-         - name: build app
-           shell: ng build 
-
+---
+# tasks file for build
+- name: build app
+  command: ng build --prod
+  environment:
+    PATH: /root/.nvm/versions/node/v12.22.7/bin
 
