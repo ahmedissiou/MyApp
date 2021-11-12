@@ -2,5 +2,4 @@
 # tasks file for build
 - name: build app
   command: ng build --prod
-  environment:
-    PATH: /root/.nvm/versions/node/v12.22.7/bin
+  
